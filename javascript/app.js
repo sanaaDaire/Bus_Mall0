@@ -114,6 +114,8 @@ function summary(){
     liEl.textContent = `${buses[i].name} had ${buses[i].clicks} clicks and ${buses[i].votes} times`;
   }
 }
+setItem();
+
 
 var ctx = document.getElementById('myObject').getContext('2d');
 
@@ -174,8 +176,22 @@ function chartResult() {
    
 } 
 console.log("jhcj");
-//jhi
 
+
+function setItem(){
+  var storage = JSON.stringify(buses);
+  localStorage.setItem( 'Mall', storage);
+}
+
+
+function getItem(){
+  var convert = localStorage.getItem('Mall');
+  if( convert) {
+    buses = JSON.parse(convert);
+  }
+  
+  
+}
 function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 
