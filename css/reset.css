@@ -1,0 +1,30 @@
+
+#imgz{
+    column-count: 3;
+    display:inline-block;
+    float:left;
+  }
+  #leftImage
+  {
+  float: left;
+  padding: 10px;
+  }
+  #rightImage
+  {
+  float: right;
+  padding: 10px;
+  }
+  #centerImage
+  {
+  display: inline-block;
+  padding: 10px;
+  
+  }
+  #buttons {
+      background-color: #4CAF50; 
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration:underline;
+      display: inline-block;
+      font-size: 16px;
+  }

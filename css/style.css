@@ -1,0 +1,58 @@
+body {
+
+    background-color: beige;
+}
+h1 {
+    text-align: center;
+    color: purple;
+    padding: 5%;
+}
+#all_images{
+
+    text-align: center;
+    max-height: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    color: purple;
+    padding: 5%;
+
+}
+
+
+
+/* #leftImage
+{
+float: left;
+padding: 10px;
+}
+#rightImage
+{
+float: right;
+padding: 10px;
+}
+#centerImage
+{
+display: inline-block;
+padding: 10px;
+
+} */
+#buttons {
+    background-color: purple; 
+    padding:20px 10px;
+    text-align: left;
+    text-decoration:underline;
+    display: inline-block;
+    font-size: 20px;
+    float: left;
+}
